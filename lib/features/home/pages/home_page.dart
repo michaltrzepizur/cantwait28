@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Can\'t Wait 🤩'),
+        title: const Text("Can't Wait 🤩"),
       ),
       body: const _HomePageBody(),
       floatingActionButton: FloatingActionButton(
@@ -153,7 +153,7 @@ class _ListViewItem extends StatelessWidget {
                   margin: const EdgeInsets.all(10),
                   padding: const EdgeInsets.all(10),
                   child: const Column(
-                    children:  [
+                    children: [
                       Text(
                         '0',
                         style: TextStyle(
