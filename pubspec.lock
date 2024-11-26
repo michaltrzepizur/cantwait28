@@ -117,10 +117,10 @@ packages:
     dependency: "direct main"
     description:
       name: firebase_auth
-      sha256: ac3c7c8022c1032c1dc7d16e62db1d6f1e2fbdc8c1039ee706d8deb45eca3a42
+      sha256: "95c74884ff25eafcbbbcd5506b738e68ee98ff54d09522a6092a2fb95d02ee7a"
       url: "https://pub.dev"
     source: hosted
-    version: "4.2.5"
+    version: "4.10.1"
   firebase_auth_platform_interface:
     dependency: transitive
     description:
@@ -189,26 +189,26 @@ packages:
     dependency: transitive
     description:
       name: firebase_dynamic_links
-      sha256: "00a80947fce912f44d30c4fda0a271df3f3fbb7caca4fe15e6ae9ad3f0e5b87f"
+      sha256: c37784a4b663b9351894c921a991647e9fb7d6c7b1c0cbd0d8a28f8abe0dfb38
       url: "https://pub.dev"
     source: hosted
-    version: "5.0.11"
+    version: "5.3.7"
   firebase_dynamic_links_platform_interface:
     dependency: transitive
     description:
       name: firebase_dynamic_links_platform_interface
-      sha256: "20e3c50e1272d380bfcaa459e01683d18977673716d165f399065604b5ffd458"
+      sha256: "8f445e4c8f4ca7e463f4a75e777c8d72431103dd79e26f71393d66bc21dcd2df"
       url: "https://pub.dev"
     source: hosted
-    version: "0.2.3+26"
+    version: "0.2.6+7"
   firebase_ui_auth:
     dependency: "direct main"
     description:
       name: firebase_ui_auth
-      sha256: "0d964d026baefedec2822be781540b12e8b42940970d83a748628f3db7c70623"
+      sha256: "833f5f051a6847850e5d1f1063f46cf3c7f73134a70601a95209f253ff16d082"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.8"
+    version: "1.4.0"
   firebase_ui_localizations:
     dependency: transitive
     description:
@@ -221,10 +221,18 @@ packages:
     dependency: transitive
     description:
       name: firebase_ui_oauth
-      sha256: "0ac0b638f93985b9670bc0177a15fdcd788aff124787c98622bddc422ef595eb"
+      sha256: a4fb87bba54f9531a3fbdbe7e97d2c07664764d4fe0eee622474f35cf2be0da7
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.8"
+    version: "1.4.0"
+  firebase_ui_shared:
+    dependency: transitive
+    description:
+      name: firebase_ui_shared
+      sha256: f1d07c130a39104d32fba1dab274b7bcb13be2bf4e652624a4ccabb58f9781f1
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.4.1"
   flutter:
     dependency: "direct main"
     description: flutter
