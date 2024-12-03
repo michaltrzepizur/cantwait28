@@ -19,7 +19,13 @@ class HomePage extends StatelessWidget {
         title: const Text("Can't Wait 🤩"),
         actions: [
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const UserProfile(),
+                ),
+              );
+            },
             icon: const Icon(Icons.person),
           ),
         ],
